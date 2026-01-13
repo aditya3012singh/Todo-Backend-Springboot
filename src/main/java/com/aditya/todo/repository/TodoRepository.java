@@ -8,6 +8,6 @@ import java.util.List;
 import java.util.Optional;
 
 public interface TodoRepository extends JpaRepository<Todo, Long> {
-    List<Todo> findByOwner(Long ownerId);
+    List<Todo> findByOwner_Id(Long ownerId);
     Optional<Todo> findByIdAndOwner_Id(Long todoId, Long ownerId);
 }

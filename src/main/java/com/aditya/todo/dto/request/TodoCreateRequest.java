@@ -15,4 +15,5 @@ public class TodoCreateRequest {
 
     @NotNull(message = "status is required")
     private TodoStatus status;
+
 }
