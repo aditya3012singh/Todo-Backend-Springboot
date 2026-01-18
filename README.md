@@ -116,9 +116,3 @@ Please add a license file to the repo if you intend to make the project open-sou
 
 - If the application fails to connect to the DB, verify `spring.datasource.url`, the DB user, and that PostgreSQL is running and accessible from your environment.
 - If you see Lombok-related IDE errors, install and enable the Lombok plugin and re-import Maven project.
-
-## Next steps / TODOs (suggested)
-- Add README examples for API endpoints (once controllers are available).
-- Add a `docker-compose.yml` to start PostgreSQL quickly in development.
-- Add Flyway or Liquibase for database migrations in production.
-- Add a LICENSE file and CODE_OF_CONDUCT if required.
